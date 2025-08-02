@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get Well Soon ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.5em;
+      margin-bottom: 30px;
+    }
+    .heart {
+      font-size: 5em;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ff3b2e;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hey Love 💖</h1>
+  <p>I know you're not feeling your best right now,<br>but I just wanted to say...</p>
+  <div class="heart">❤️</div>
+  <p><strong>Get well soon, my sunshine!</strong><br>You're stronger than you think, and I'm right here with you.</p>
+  <button onclick="alert('Sending you all my hugs and kisses 💌')">Click for a Hug</button>
+</body>
+</html>
